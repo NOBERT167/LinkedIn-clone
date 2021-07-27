@@ -1,0 +1,36 @@
+.widgets {
+  flex: 0.2;
+  background: white;
+  border-radius: 10px;
+  border: 0.1px solid lightgray;
+}
+.widgets_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.widgets_header h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.widgets_article p {
+  color: gray;
+}
+.widgets_article {
+  display: flex;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.widgets_article:hover {
+  background: whitesmoke;
+}
+.widgets_articleLeft {
+  color: #0177b7;
+  margin-right: 10px;
+}
+.widget_articleLeft {
+  color: #0177b7;
+  margin-right: 5px;
+}

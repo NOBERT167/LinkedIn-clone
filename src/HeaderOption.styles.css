@@ -1,0 +1,16 @@
+.headerOptions {
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.headerOptions :hover {
+  color: black;
+}
+.headerOptions_icon {
+  object-fit: contain;
+  height: 25px !important;
+  width: 25px !important;
+}
