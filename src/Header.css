@@ -11,6 +11,7 @@
 }
 .header_left {
   display: flex;
+  margin-right: 30px;
 }
 .header_left img {
   object-fit: contain;

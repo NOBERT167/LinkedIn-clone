@@ -20,7 +20,6 @@ const Post = forwardRef(({ name, description, message, photoURL }, ref) => {
       <div className="post_body">
         <p>{message}</p>
       </div>
-
       <div className="post_buttons">
         <InputOption Icon={ThumbUpAltIcon} title="Like" />
         <InputOption Icon={ChatBubbleIcon} title="Comment" />
